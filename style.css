@@ -1,0 +1,81 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Main title and contact info styling */
+#mainTitle h1 {
+    text-align: center;
+    color: #333;
+}
+
+#mainTitle p {
+    text-align: center;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Subtitle and info styling */
+
+#SubTitle p {
+    text-align: center;
+    color: #555;
+    margin: 5px 0;
+
+}
+/* Section titles */
+h3 {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date {
+    /* No specific style needed here unless you want to adjust padding, margins, etc. */
+}
+
+/* Job, education, and skills sections */
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Lists within sections */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Hyperlinks styling */
+a {
+    color: #06c;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal rule styling */
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #333;
+}
