@@ -1,11 +1,27 @@
 /* General body styles */
 body {
     font-family: Arial, sans-serif;
+    font-size: 16px;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
+
+/* Smaller devices (tablets, phones) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Smaller font size for tablets and phones */
+    }
+}
+
+/* Very small devices (small phones) */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px; /* Even smaller font size for small phones */
+    }
+}
+
 
 /* Main title and contact info styling */
 #mainTitle h1 {
